@@ -1,4 +1,4 @@
-# BOT INSTAGRAM 
+# BOT INSTAGRAM (SEGUE APENAS 1 PERFIL)
  LEIA ATENTAMENTE AS INSTRUÇÔES! <br>
  Antes de executar o arquivo: bot.py é necessário baixar o python e o selenium. <br>
  Download python: https://www.python.org/downloads/ <br>
