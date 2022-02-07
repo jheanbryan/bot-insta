@@ -1,4 +1,5 @@
-# bot-insta
+# BOT INSTAGRAM 
+ LEIA ATENTAMENTE AS INSTRUÇÔES!
  Antes de executar o arquivo: bot.py é necessário baixar o python e o selenium.
  Download python: https://www.python.org/downloads/
  Para baixar o selenium é so digitar o seguinte comando no prompt de comando: pip install selenium
