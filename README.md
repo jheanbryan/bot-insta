@@ -1,4 +1,5 @@
 # BOT INSTAGRAM
+ ATENÇÃO: O BOT SÓ FUNCIONA NO NAVEGADOR GOOGLE CHROME! <br>
  LEIA ATENTAMENTE AS INSTRUÇÔES! <br>
  Antes de executar o arquivo: bot.py é necessário baixar o python e o selenium. <br>
  Download python: https://www.python.org/downloads/ <br>
