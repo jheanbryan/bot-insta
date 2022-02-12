@@ -7,3 +7,4 @@
  Antes de executar o bot baixe o chromedriver de acordo com sua versão do google: https://chromedriver.chromium.org/downloads <br> 
  Caso seu google seja da versão 97, baixe o chromedriver que está aqui junto com o código, caso contrário baixe sua versão e coloque o chromedriver na mesma pasta do bot. <br>
 O bot irá seguir os perfis da lista 'perfis_a_seguir.txt', e este arquivo deve estar na mesma pasta do bot!
+O bot irá curtir os perfis da lista 'perfis_a_curtir.txt', e este arquivo deve estar na mesma pasta do bot!
