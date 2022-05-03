@@ -125,45 +125,68 @@ def movimentar():
         pass
 
     time.sleep(5)
-    if navegador.find_element_by_link_text('Não foi possível se conectar ao Instagram. Verifique se você está conectado à Internet e tente novamente.').is_displayed():
-        print('\nNão foi possível se conectar ao Instagram. Verifique se você está conectado à Internet e tente novamente.\n')
-    else: 
-        print('\nLogin efetuado com sucesso!\n')
-        time.sleep(20)
-        #Clicar no agora não
+    print('\nLogin efetuado com sucesso!\n')
+    time.sleep(20)
+
+    #Clicar no agora não ou ir para o feed
+    try:
+        navegador.find_element_by_xpath('/html/body/div[1]/section/main/div/div/div/div/button').click()
+    except:
         try:
-            navegador.find_elements_by_link_text('Agora não')[0].click()
+            navegador.find_element_by_link_text('Agora não').click()
+        except:
+            print('\n[ERRO] Não foi possível clicar no agora não\n')
+
+    time.sleep(2)
+
+    #clicar no segundo agora não ERRO AQUI
+    try:
+        navegador.find_element_by_link_text('Agora não').click()
+    except:
+        print('\n[ERRO] Não foi possível clicar no segundo agora não\n')
+
+
+    #Assistir Storys por 5 minutos usando a classe do elemento
+    print('\nAssistindo Storys por 5 minutos\n')
+    try:
+        navegador.find_element_by_class_name('Fd_fQ ').click()
+    except:
+        try:
+            navegador.find_element_by_class_name('class="OE3OK "').click()
+        except:
+            print('\n[ERRO] Não foi possível assistir storys\n')
+    
+    time.sleep(tempo_storys)
+
+    #Fechar storys
+    try:
+        navegador.find_element_by_xpath('/html/body/div[1]/section/div[3]/button').click()
+    except:
+        try:
+            navegador.find_element_by_xpath('/html/body/div[1]/section/div[3]/button/div').click()
         except:
             try:
-                navegador.find_element_by_xpath('/html/body/div[5]/div/div/div/div[3]/button[2]').click()
-            except:
-                print('\n[ERRO] Não foi possível clicar no agora não\n')
-
-        time.sleep(2)
-
-        #Assistir Storys por 5 minutos usando a classe do elemento
-        print('\nAssistindo Storys por 5 minutos\n')
-        try:
-            navegador.find_element_by_class_name('Fd_fQ ').click()
-        except:
-            try:
-                navegador.find_element_by_class_name('class="OE3OK "').click()
-            except:
-                print('\n[ERRO] Não foi possível assistir storys\n')
-        
-        time.sleep(tempo_storys)
-
-        #Fechar storys
-        try:
-            navegador.find_element_by_xpath('/html/body/div[1]/section/div[3]/button/div/svg/line').click()
-        except:
-            try:
-                navegador.find_element_by_class_name('wpO6b  ').click()
+                navegador.find_element_by_class_name('QBdPU ').click()
             except:
                 try:
-                    navegador.find_element_by_class_name('QBdPU ').click()
+                    navegador.find_element_by_xpath('/html/body/div[1]/section/div[3]/button/div/svg').click()
                 except:
-                    print('\n[ERRO] Não foi possível fechar storys\n')
+                    try:
+                        navegador.find_element_by_xpath('/html/body/div[1]/section/div[3]/button/div/svg/polyline').click()
+                    except:
+                        try:
+                            navegador.find_element_by_xpath('/html/body/div[1]/section/div[3]/button/div/svg/line').click()
+                        except:
+                            print('\n[ERRO] Não foi possível fechar storys\n')
+                
+
+
+#/html/body/div[1]/section/div[3]/button xpath X
+#/html/body/div[1]/section/div[3]/button/div xpath X
+#QBdPU  class X
+#/html/body/div[1]/section/div[3]/button/div/svg xpath X
+#/html/body/div[1]/section/div[3]/button/div/svg/polyline xpath X
+#/html/body/div[1]/section/div[3]/button/div/svg/line xpath X
 
 
 if seguir_ou_movimentar == '1':
@@ -180,8 +203,3 @@ elif seguir_ou_movimentar == '2':
     print('Você selecionou 2')
 else:
     print('Opção inválida!')
-
-
-
-
-
