@@ -16,6 +16,7 @@ print('\n--------BOT--------')
 seguir_ou_movimentar = '2'#input('Seguir/curtir ou movimentar? (Digite 1 ou 2) ')
 
 if seguir_ou_movimentar == '1':
+    print('\nVocê digitou 1!')
     quer_curtir = input('Curtir posts do arquivo posts_a_curtir.txt? (s/n) ')
     quer_seguir = input('Seguir perfis do arquivo perfis_a_seguir.txt? (s/n) ') 
 
@@ -99,6 +100,16 @@ def seguir_curtir():
                 
         print('Já curti todos da lista!')
 
+    if quer_curtir == 's' or quer_curtir == 'S':
+        curtir()
+    else:
+        print('[ERRO]: Opção inválida!')
+
+    if quer_seguir == 's' or quer_seguir == 'S':
+        seguir()
+    else:
+        print('[ERRO]: Opção inválida!')
+
 def movimentar():
     tempo_storys = input('Tempo de movimentação (minutos): ')
     tempo_storys = int(tempo_storys)
@@ -141,9 +152,13 @@ def movimentar():
 
     #clicar no segundo agora não ERRO AQUI
     try:
+        #selecionar elemento pelo texto 'Agora não'
         navegador.find_element_by_link_text('Agora não').click()
     except:
-        print('\n[ERRO] Não foi possível clicar no segundo agora não\n')
+        try:
+            navegador.find_element_by_xpath('/html/body/div[6]/div/div/div/div[3]/button[2]').click()
+        except:
+            print('\n[ERRO] Não foi possível clicar no segundo agora não\n')
 
 
     #Assistir Storys por 5 minutos usando a classe do elemento
@@ -159,6 +174,7 @@ def movimentar():
     time.sleep(tempo_storys)
 
     #Fechar storys
+    print('\nFechando Storys\n')
     try:
         navegador.find_element_by_xpath('/html/body/div[1]/section/div[3]/button').click()
     except:
@@ -177,29 +193,23 @@ def movimentar():
                         try:
                             navegador.find_element_by_xpath('/html/body/div[1]/section/div[3]/button/div/svg/line').click()
                         except:
-                            print('\n[ERRO] Não foi possível fechar storys\n')
-                
+                            try:
+                                navegador.find_element_by_xpath('/html/body/div[1]/section/div/div/div[2]/button/div/svg/line[1]').click()
+                            except:
+                                print('\n[ERRO] Não foi possível fechar storys\n')
 
-
-#/html/body/div[1]/section/div[3]/button xpath X
-#/html/body/div[1]/section/div[3]/button/div xpath X
-#QBdPU  class X
-#/html/body/div[1]/section/div[3]/button/div/svg xpath X
-#/html/body/div[1]/section/div[3]/button/div/svg/polyline xpath X
-#/html/body/div[1]/section/div[3]/button/div/svg/line xpath X
+    #rolar a página
+    nova_altura = navegador.execute_script('return document.body.scrollHeight')
+    print('nova_altura')
+    navegador.execute_script('window.scrollTo(0, 500')
 
 
 if seguir_ou_movimentar == '1':
+    if quer_curtir == 'n' and quer_seguir == 'n':
+        print('Você não quer curtir nem seguir ninguém!')
     seguir_curtir()
-    print('Você selecionou 1')
-    if quer_curtir == 's' or quer_curtir == 'S':
-        curtir()
-    if quer_seguir == 's' or quer_seguir == 'S':
-        seguir()
-    elif quer_curtir == 'n' and quer_seguir == 'n':
-        print('Você não quer nada...')
-elif seguir_ou_movimentar == '2':
+if seguir_ou_movimentar == '2':
+    print('Iniciando movimentação...')
     movimentar()
-    print('Você selecionou 2')
 else:
     print('Opção inválida!')

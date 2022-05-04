@@ -804,3 +804,470 @@ Read port: 34737
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1651607269018	geckodriver	INFO	Listening on 127.0.0.1:60447
+1651607269549	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56845" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile24EOBG"
+
+(firefox:4525): Gtk-WARNING **: 15:47:56.470: cache version is different 1 != 2
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1651607277642	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile24EOBG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56845/devtools/browser/718cb417-e559-4564-92ae-643418ad214b
+1651607291752	Marionette	INFO	Listening on port 38397
+Read port: 38397
+1651607291998	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1651607614506	geckodriver	INFO	Listening on 127.0.0.1:38097
+1651607615028	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46525" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLz7Ebw"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1651607621877	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1651607630928	Marionette	INFO	Stopped listening on port 38397
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLz7Ebw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46525/devtools/browser/9844ce11-8fba-4912-bbba-86ba254083e9
+1651607633476	Marionette	INFO	Listening on port 42801
+Read port: 42801
+1651607633621	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: , line 0: InvalidStateError: A mutation operation was attempted on a database that did not allow mutations.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 4436 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 498 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 4641 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 6161 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 2347 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 2954 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 4615 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 6148 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 1425 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 7298 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[2022-05-03T20:32:32Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-03T20:32:33Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-03T20:32:33Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-03T20:32:33Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 7026 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackgroundIDBDatabase::Msg_Close) Channel closing: too late to send/recv, messages will be lost
+
+[2022-05-03T21:51:16Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-03T21:51:16Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-03T21:51:16Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-03T21:51:16Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 990"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:990:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:563:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:672:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 990, column: 0
+console.error: ({})
+Handler function threw an exception: TypeError: undefined has no properties
+Stack: _getWaitTiming@resource://devtools/server/actors/network-monitor/network-observer.js:1089:1
+_setupHarTimings@resource://devtools/server/actors/network-monitor/network-observer.js:1314:28
+_onTransactionClose@resource://devtools/server/actors/network-monitor/network-observer.js:1037:27
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:566:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:672:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1089, column: 1
+console.error: (new TypeError("undefined has no properties", "resource://devtools/server/actors/network-monitor/network-observer.js", 1089))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://media-cntw.nperf.com/webplugin/dist/SpeedTest/2.5.5/js/nPartners-expert-light.min.o.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://media-cntw.nperf.com/webplugin/dist/SpeedTest/2.5.5/js/nPartners-expert-light.min.o.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 6722 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 5393 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1651615504828	geckodriver	INFO	Listening on 127.0.0.1:45657
+1651615505256	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51723" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3zQH36"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 3832 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1651615511570	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3zQH36/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:51723/devtools/browser/333fe044-56b8-464b-92df-01de447e523b
+1651615519961	Marionette	INFO	Listening on port 46321
+Read port: 46321
+1651615520013	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 4015 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://media-cntw.nperf.com/webplugin/dist/SpeedTest/2.5.5/js/nPartners-expert-light.min.o.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://media-cntw.nperf.com/webplugin/dist/SpeedTest/2.5.5/js/nPartners-expert-light.min.o.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 1216 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 208 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 5059 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 2696 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 3303 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 4858 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 4770 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 1141 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 861 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 7387 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 7478 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 4777 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 4121 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 6635 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 2799 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1651615774571	Marionette	INFO	Stopped listening on port 46321
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1651615785537	geckodriver	INFO	Listening on 127.0.0.1:47425
+1651615786171	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58635" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileb4Kswi"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1651615794069	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileb4Kswi/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58635/devtools/browser/feca673a-573c-4782-979d-11a764953cfd
+1651615801507	Marionette	INFO	Listening on port 37615
+Read port: 37615
+1651615801668	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://media-cntw.nperf.com/webplugin/dist/SpeedTest/2.5.5/js/nPartners-expert-light.min.o.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://media-cntw.nperf.com/webplugin/dist/SpeedTest/2.5.5/js/nPartners-expert-light.min.o.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 4236 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 3517 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+1651615821729	Marionette	INFO	Stopped listening on port 37615
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1651615860679	geckodriver	INFO	Listening on 127.0.0.1:43509
+1651615861193	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49851" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNy9uqQ"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1651615864191	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNy9uqQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49851/devtools/browser/a14b3cae-72f2-4261-b6e7-b2456504fac3
+1651615868402	Marionette	INFO	Listening on port 39107
+Read port: 39107
+1651615868496	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://media-cntw.nperf.com/webplugin/dist/SpeedTest/2.5.5/js/nPartners-expert-light.min.o.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://media-cntw.nperf.com/webplugin/dist/SpeedTest/2.5.5/js/nPartners-expert-light.min.o.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 7343 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 7603 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 4737 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+1651615893649	Marionette	INFO	Stopped listening on port 39107
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1651615929774	geckodriver	INFO	Listening on 127.0.0.1:34921
+1651615930288	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35517" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGbViuL"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1651615933207	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGbViuL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35517/devtools/browser/4b59a0a5-cd0c-4489-acf4-b146861145b8
+1651615937349	Marionette	INFO	Listening on port 38829
+Read port: 38829
+1651615937670	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript warning: https://media-cntw.nperf.com/webplugin/dist/SpeedTest/2.5.5/js/nPartners-expert-light.min.o.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://media-cntw.nperf.com/webplugin/dist/SpeedTest/2.5.5/js/nPartners-expert-light.min.o.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 770 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1651615980968	geckodriver	INFO	Listening on 127.0.0.1:49383
+1651615981473	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46673" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelel148"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1651615984768	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelel148/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:46673/devtools/browser/f9a333a4-6050-4d5b-839b-29ecea051029
+1651615991400	Marionette	INFO	Listening on port 40695
+Read port: 40695
+1651615991567	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651615994019	Marionette	INFO	Stopped listening on port 38829
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript warning: https://media-cntw.nperf.com/webplugin/dist/SpeedTest/2.5.5/js/nPartners-expert-light.min.o.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://media-cntw.nperf.com/webplugin/dist/SpeedTest/2.5.5/js/nPartners-expert-light.min.o.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L40_bwVzlW8spCJYIlxRfazkqz_naZf8jNC5QLvZgqM.js line 1 > eval line 6313 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1651616016186	Marionette	INFO	Stopped listening on port 40695
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2320))
+console.error: (new TypeError("this.responsiveFront is undefined", "resource://devtools/client/responsive/ui.js", 256))
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 2185: TypeError: ui.responsiveFront is undefined
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 990"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:990:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:563:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:672:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 990, column: 0
+console.error: ({})
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 990"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:990:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:563:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:672:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 990, column: 0
+console.error: ({})
+Handler function threw an exception: TypeError: undefined has no properties
+Stack: _getWaitTiming@resource://devtools/server/actors/network-monitor/network-observer.js:1089:1
+_setupHarTimings@resource://devtools/server/actors/network-monitor/network-observer.js:1314:28
+_onTransactionClose@resource://devtools/server/actors/network-monitor/network-observer.js:1037:27
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:566:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:672:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1089, column: 1
+console.error: (new TypeError("undefined has no properties", "resource://devtools/server/actors/network-monitor/network-observer.js", 1089))
+Handler function threw an exception: TypeError: undefined has no properties
+Stack: _getWaitTiming@resource://devtools/server/actors/network-monitor/network-observer.js:1089:1
+_setupHarTimings@resource://devtools/server/actors/network-monitor/network-observer.js:1314:28
+_onTransactionClose@resource://devtools/server/actors/network-monitor/network-observer.js:1037:27
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:566:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:672:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1089, column: 1
+console.error: (new TypeError("undefined has no properties", "resource://devtools/server/actors/network-monitor/network-observer.js", 1089))
+
+###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundIDBDatabase::Msg_CloseAfterInvalidationComplete) Channel error: cannot send/recv
+
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackgroundLSSnapshot::Msg_DeleteMe) Channel error: cannot send/recv
+
+console.error: "Panel inspector:" (new TypeError("event is undefined", "resource://devtools/client/shared/telemetry.js", 700))
+Handler function BrowserTabList.prototype.onCloseWindow's delayed body threw an exception: TypeError: topBrowsingContext is null
+Stack: getAllBrowsingContextsForContext@resource://devtools/server/actors/watcher/browsing-context-helpers.jsm:352:7
+getAllBrowsingContexts@resource://devtools/server/actors/watcher.js:150:12
+destroyTargets@resource://devtools/server/actors/watcher/target-helpers/frame-helper.js:164:36
+unwatchTargets@resource://devtools/server/actors/watcher.js:285:24
+destroy@resource://devtools/server/actors/watcher.js:173:12
+destroy@resource://devtools/shared/protocol/Pool.js:211:17
+destroy@resource://devtools/shared/protocol/Actor.js:76:11
+destroy@resource://devtools/server/actors/descriptors/tab.js:245:29
+BrowserTabList.prototype._handleActorClose@resource://devtools/server/actors/webbrowser.js:458:9
+BrowserTabList.prototype.onCloseWindow</<@resource://devtools/server/actors/webbrowser.js:707:16
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+Line: 352, column: 7
+console.error: (new TypeError("topBrowsingContext is null", "resource://devtools/server/actors/watcher/browsing-context-helpers.jsm", 352))
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameParent.jsm, line 217: TypeError: watcher is undefined
+1651616190670	Marionette	INFO	Stopped listening on port 42801
+console.error: (new TypeError("this.transport is null", "resource://devtools/server/devtools-server-connection.js", 99))
+TypeError: this.transport is null: send@resource://devtools/server/devtools-server-connection.js:99:5
+_sendEvent@resource://devtools/shared/protocol/Actor.js:72:15
+initialize/<@resource://devtools/shared/protocol/Actor.js:46:16
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+_emitResourcesForm@resource://devtools/server/actors/watcher.js:461:10
+notifyResourceAvailable@resource://devtools/server/actors/watcher.js:436:10
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:229:10
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:729:37
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:761:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:642:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+
+Handler function threw an exception: TypeError: this._extraPools is null
+Stack: addActorPool@resource://devtools/server/devtools-server-connection.js:118:5
+get _poolMap@resource://devtools/shared/protocol/Pool.js:81:15
+manage@resource://devtools/shared/protocol/Pool.js:102:5
+_prepareHeaders@resource://devtools/server/actors/network-monitor/network-event-actor.js:551:12
+addRequestHeaders@resource://devtools/server/actors/network-monitor/network-event-actor.js:303:10
+exports.fetchRequestHeadersAndCookies@resource://devtools/server/actors/network-monitor/utils/network-utils.js:303:9
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:738:18
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:761:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:642:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 118, column: 5
+console.error: (new TypeError("this._extraPools is null", "resource://devtools/server/devtools-server-connection.js", 118))
+console.error: (new TypeError("this.transport is null", "resource://devtools/server/devtools-server-connection.js", 99))
+TypeError: this.transport is null: send@resource://devtools/server/devtools-server-connection.js:99:5
+_sendEvent@resource://devtools/shared/protocol/Actor.js:72:15
+initialize/<@resource://devtools/shared/protocol/Actor.js:46:16
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+_emitResourcesForm@resource://devtools/server/actors/watcher.js:461:10
+notifyResourceAvailable@resource://devtools/server/actors/watcher.js:436:10
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:229:10
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:729:37
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:761:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:642:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+
+Handler function threw an exception: TypeError: this._extraPools is null
+Stack: addActorPool@resource://devtools/server/devtools-server-connection.js:118:5
+get _poolMap@resource://devtools/shared/protocol/Pool.js:81:15
+manage@resource://devtools/shared/protocol/Pool.js:102:5
+_prepareHeaders@resource://devtools/server/actors/network-monitor/network-event-actor.js:551:12
+addRequestHeaders@resource://devtools/server/actors/network-monitor/network-event-actor.js:303:10
+exports.fetchRequestHeadersAndCookies@resource://devtools/server/actors/network-monitor/utils/network-utils.js:303:9
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:738:18
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:761:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:642:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 118, column: 5
+console.error: (new TypeError("this._extraPools is null", "resource://devtools/server/devtools-server-connection.js", 118))
+console.error: (new TypeError("this.transport is null", "resource://devtools/server/devtools-server-connection.js", 99))
+TypeError: this.transport is null: send@resource://devtools/server/devtools-server-connection.js:99:5
+_sendEvent@resource://devtools/shared/protocol/Actor.js:72:15
+initialize/<@resource://devtools/shared/protocol/Actor.js:46:16
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+_emitResourcesForm@resource://devtools/server/actors/watcher.js:461:10
+notifyResourceAvailable@resource://devtools/server/actors/watcher.js:436:10
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:229:10
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:729:37
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:761:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:642:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+
+Handler function threw an exception: TypeError: this._extraPools is null
+Stack: addActorPool@resource://devtools/server/devtools-server-connection.js:118:5
+get _poolMap@resource://devtools/shared/protocol/Pool.js:81:15
+manage@resource://devtools/shared/protocol/Pool.js:102:5
+_prepareHeaders@resource://devtools/server/actors/network-monitor/network-event-actor.js:551:12
+addRequestHeaders@resource://devtools/server/actors/network-monitor/network-event-actor.js:303:10
+exports.fetchRequestHeadersAndCookies@resource://devtools/server/actors/network-monitor/utils/network-utils.js:303:9
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:738:18
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:761:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:642:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 118, column: 5
+console.error: (new TypeError("this._extraPools is null", "resource://devtools/server/devtools-server-connection.js", 118))
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651617175818	geckodriver	INFO	Listening on 127.0.0.1:36029
+1651617176437	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49581" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilegWNoPs"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1651617181570	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegWNoPs/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49581/devtools/browser/a40226a5-9e99-45f6-98ee-ac64ff5dae7f
+1651617188284	Marionette	INFO	Listening on port 34033
+Read port: 34033
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1651617188702	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1651617607904	geckodriver	INFO	Listening on 127.0.0.1:52149
+1651617608418	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40767" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileX1vZgL"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1651617612410	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileX1vZgL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40767/devtools/browser/13342ed2-52cf-497c-81f2-d2c6f341dd55
+1651617617949	Marionette	INFO	Listening on port 42453
+Read port: 42453
+1651617618301	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1651617654630	Marionette	INFO	Stopped listening on port 34033
+console.error: services.settings: 
+  main/search-config Signature failed  InvalidSignatureError: Invalid content signature (main/search-config)
+console.error: services.settings: 
+  main/search-config local data was corrupted
+console.warn: services.settings: main/search-config Signature verified failed. Retry from scratch
+1651619358783	Marionette	INFO	Stopped listening on port 42453
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651619372260	geckodriver	INFO	Listening on 127.0.0.1:54773
+1651619372777	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60629" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile92GmIq"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1651619375796	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile92GmIq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60629/devtools/browser/b01b7226-63b7-4d5a-9327-812733dfea52
+1651619379954	Marionette	INFO	Listening on port 37619
+Read port: 37619
+1651619380012	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1651619497776	Marionette	INFO	Stopped listening on port 37619
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
