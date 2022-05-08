@@ -5,6 +5,11 @@ from selenium import webdriver
 from webdriver_manager.firefox import GeckoDriverManager
 import time
 
+print('\n[INSTRUÇÕES]:\n')
+print('1. Crie um arquivo com o nome "perfis_a_seguir.txt" e adicione os perfis que você deseja seguir.\n')
+print('2. Crie um arquivo com o nome "posts_a_curtir.txt" e adicione os links dos posts que você deseja curtir.\n')
+print('\nOS COMANDOS PASSADOS POR VOCÊ, SERÃO FEITOS EM TODAS AS CONTAS!\n')
+
 print('\n--------BOT--------')
 seguir_ou_movimentar = input('Seguir/curtir ou movimentar? (Digite 1 ou 2) ')
 if seguir_ou_movimentar == '1':
@@ -14,8 +19,6 @@ if seguir_ou_movimentar == '1':
 
 #iniciar navegador firefox estando no linux
 navegador = webdriver.Firefox(executable_path=GeckoDriverManager().install())
-
-#Ler o user e senha
 user = None
 senha = None
 
@@ -213,16 +216,17 @@ with open('perfil_instagram.txt', 'r') as arquivo:
         user = perfil.split(',')[0]
         senha = perfil.split(',')[1]
 
-if seguir_ou_movimentar == '1':
-    if quer_curtir == 'n' and quer_seguir == 'n':
-        print('\nVocê não quer curtir nem seguir ninguém!\n')
-    seguir_curtir()
-if seguir_ou_movimentar == '2':
-    print('\nIniciando movimentação...\n')
-    movimentar()
-else:
-    print('\nOpção inválida!\n')
+        #identei pra dentro, tava na margem
+        if seguir_ou_movimentar == '1':
+            if quer_curtir == 'n' and quer_seguir == 'n':
+                print('\nVocê não quer curtir nem seguir ninguém!\n')
+            seguir_curtir() #como se fosse o else
+        elif seguir_ou_movimentar == '2':
+            print('\nIniciando movimentação...\n')
+            movimentar()
+        else:
+            print('\nOpção inválida!\n')
 
-print('\nFinalizando...\n')
-navegador.close()
+        print('\nFinalizando...\n')
+        navegador.close()
 
