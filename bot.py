@@ -1,43 +1,37 @@
+from calendar import c
+from curses import KEY_END, KEY_MARK
 from re import I
 from selenium import webdriver
 from webdriver_manager.firefox import GeckoDriverManager
 import time
 
-#Ler o user e senha
-user = None
-senha = None
-with open('perfil_instagram.txt', 'r') as arquivo:
-    linhas = arquivo.readlines()
-    for perfil in linhas:
-        user = perfil.split(',')[0]
-        senha = perfil.split(',')[1]
-
 print('\n--------BOT--------')
-seguir_ou_movimentar = '2'#input('Seguir/curtir ou movimentar? (Digite 1 ou 2) ')
-
+seguir_ou_movimentar = input('Seguir/curtir ou movimentar? (Digite 1 ou 2) ')
 if seguir_ou_movimentar == '1':
     print('\nVocê digitou 1!')
     quer_curtir = input('Curtir posts do arquivo posts_a_curtir.txt? (s/n) ')
     quer_seguir = input('Seguir perfis do arquivo perfis_a_seguir.txt? (s/n) ') 
 
+#iniciar navegador firefox estando no linux
+navegador = webdriver.Firefox(executable_path=GeckoDriverManager().install())
+
+#Ler o user e senha
+user = None
+senha = None
+
 def seguir_curtir():
     def seguir():
         print('Vou seguir...')
-        #iniciar navegador firefox estando no linux
-        navegador = webdriver.Firefox(executable_path=GeckoDriverManager().install())
-
-        #criar navegador
-        #navegador = webdriver.Chrome('chromedriver.exe')
-
         #entrar no site do instagram
         navegador.get('https://www.instagram.com/')
         time.sleep(5)
 
         #preencher usuário
         navegador.find_element_by_xpath('//*[@id="loginForm"]/div/div[1]/div/label/input').send_keys(user)
-
+        
         #preencher senha
         navegador.find_element_by_xpath('//*[@id="loginForm"]/div/div[2]/div/label/input').send_keys(senha)
+        print('\nPerfil Selecionado: {}\n'.format(user))
         time.sleep(2)
 
         #clicar no botão entrar
@@ -61,16 +55,10 @@ def seguir_curtir():
                 time.sleep(15)
 
         print('Já segui todos da lista!')
-        navegador.close()
+        time.sleep(5)
+
     def curtir():
         print('Vou curtir...')
-        
-        #iniciar navegador firefox estando no linux
-        navegador = webdriver.Firefox(executable_path=GeckoDriverManager().install())
-
-        #criar navegador
-        #navegador = webdriver.Chrome('chromedriver.exe')
-
         #entrar no site do instagram
         navegador.get('https://www.instagram.com/')
         time.sleep(5)
@@ -80,6 +68,7 @@ def seguir_curtir():
 
         #preencher senha
         navegador.find_element_by_xpath('//*[@id="loginForm"]/div/div[2]/div/label/input').send_keys(senha)
+        print('\nPerfil Selecionado: {}\n'.format(user))
         time.sleep(2)
 
         #clicar no botão entrar
@@ -94,30 +83,28 @@ def seguir_curtir():
             for link in linhas:
                 navegador.get(link)
                 time.sleep(5)
-                navegador.find_element_by_xpath('//*[@id="react-root"]/section/main/div/div[1]/article/div/div[2]/div/div[2]/section[1]/span[1]/button').click() #click no coração de seguir
+                navegador.find_element_by_xpath('//*[@id="react-root"]/section/main/div/div[1]/article/div/div[2]/div/div[2]/section[1]/span[1]/button').click() #click no coração de curtir
                 print('Curti!')
                 time.sleep(5)
                 
         print('Já curti todos da lista!')
-
+        
     if quer_curtir == 's' or quer_curtir == 'S':
         curtir()
     else:
-        print('[ERRO]: Opção inválida!')
+        print('\n[ERRO]: Opção inválida!\n')
 
     if quer_seguir == 's' or quer_seguir == 'S':
         seguir()
     else:
-        print('[ERRO]: Opção inválida!')
+        print('\n[ERRO]: Opção inválida!\n')
 
 def movimentar():
     tempo_storys = input('Tempo de movimentação (minutos): ')
     tempo_storys = int(tempo_storys)
     tempo_storys = tempo_storys * 60
     print(tempo_storys)
-    #iniciar navegador firefox estando no linux
-    navegador = webdriver.Firefox(executable_path=GeckoDriverManager().install())
-
+    
     #entrar no site do instagram
     navegador.get('https://www.instagram.com/')
     time.sleep(5)
@@ -127,13 +114,14 @@ def movimentar():
 
     #preencher senha
     navegador.find_element_by_xpath('//*[@id="loginForm"]/div/div[2]/div/label/input').send_keys(senha)
+    print('\nPerfil Selecionado: {}\n'.format(user))
     time.sleep(2)
 
     #clicar no botão entrar
     try:
         navegador.find_element_by_xpath('//*[@id="loginForm"]/div/div[3]/button/div').click()
     except:
-        pass
+        print('[ERRO]: Não foi possível entrar no perfil!')
 
     time.sleep(5)
     print('\nLogin efetuado com sucesso!\n')
@@ -150,7 +138,7 @@ def movimentar():
 
     time.sleep(2)
 
-    #clicar no segundo agora não ERRO AQUI
+    #clicar no segundo agora não
     try:
         #selecionar elemento pelo texto 'Agora não'
         navegador.find_element_by_link_text('Agora não').click()
@@ -161,8 +149,8 @@ def movimentar():
             print('\n[ERRO] Não foi possível clicar no segundo agora não\n')
 
 
-    #Assistir Storys por 5 minutos usando a classe do elemento
-    print('\nAssistindo Storys por 5 minutos\n')
+    #Assistir Storys 
+    print('\nAssistindo Storys por {} segundos\n'.format(tempo_storys))
     try:
         navegador.find_element_by_class_name('Fd_fQ ').click()
     except:
@@ -170,8 +158,24 @@ def movimentar():
             navegador.find_element_by_class_name('class="OE3OK "').click()
         except:
             print('\n[ERRO] Não foi possível assistir storys\n')
-    
+
+    time.sleep(2)
     time.sleep(tempo_storys)
+ 
+    #verificar se existe elemento com texto AO VIVO
+    try:
+        if navegador.find_element_by_xpath('/html/body/div[1]/section/div/div/div[1]/div/div[2]/div/header/div/div[2]/span').is_displayed() == True:
+            print('\nÉ uma Live\n')
+            try:
+                #Voltar para a guia anterior com o navegador.back()
+                navegador.back()
+                time.sleep(2)
+                navegador.refresh()
+                time.sleep(10)
+            except:
+                print('\n[ERRO] ao fechar a live\n')
+    except:
+        print('\n[ERRO] Ao rolar storys pro lado, ou não é live\n')
 
     #Fechar storys
     print('\nFechando Storys\n')
@@ -198,18 +202,27 @@ def movimentar():
                             except:
                                 print('\n[ERRO] Não foi possível fechar storys\n')
 
-    #rolar a página
-    nova_altura = navegador.execute_script('return document.body.scrollHeight')
-    print('nova_altura')
-    navegador.execute_script('window.scrollTo(0, 500')
+    #rolar a página para baixo
+    print('\nRolando a página para baixo\n')
+    navegador.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    time.sleep(2)
 
+with open('perfil_instagram.txt', 'r') as arquivo:
+    linhas = arquivo.readlines()
+    for perfil in linhas:
+        user = perfil.split(',')[0]
+        senha = perfil.split(',')[1]
 
 if seguir_ou_movimentar == '1':
     if quer_curtir == 'n' and quer_seguir == 'n':
-        print('Você não quer curtir nem seguir ninguém!')
+        print('\nVocê não quer curtir nem seguir ninguém!\n')
     seguir_curtir()
 if seguir_ou_movimentar == '2':
-    print('Iniciando movimentação...')
+    print('\nIniciando movimentação...\n')
     movimentar()
 else:
-    print('Opção inválida!')
+    print('\nOpção inválida!\n')
+
+print('\nFinalizando...\n')
+navegador.close()
+
