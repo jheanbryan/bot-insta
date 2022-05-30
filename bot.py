@@ -1,5 +1,4 @@
 from calendar import c
-from curses import KEY_END, KEY_MARK
 from re import I
 from selenium import webdriver
 from webdriver_manager.firefox import GeckoDriverManager
@@ -103,10 +102,10 @@ def seguir_curtir():
         print('\n[ERRO]: Opção inválida!\n')
 
 def movimentar():
-    tempo_storys = input('Tempo de movimentação (minutos): ')
-    tempo_storys = int(tempo_storys)
+    tempo_storys = int(input('Tempo de movimentação (minutos): '))
     tempo_storys = tempo_storys * 60
-    print(tempo_storys)
+    rolar_posts = int(input('Rolar quantos posts +ou-?'))
+    contador = 0
     
     #entrar no site do instagram
     navegador.get('https://www.instagram.com/')
@@ -204,10 +203,21 @@ def movimentar():
                                 navegador.find_element_by_xpath('/html/body/div[1]/section/div/div/div[2]/button/div/svg/line[1]').click()
                             except:
                                 print('\n[ERRO] Não foi possível fechar storys\n')
+    time.sleep(2)
+    navegador.refresh()
+    time.sleep(2)
+    #rolar página
+    contador = 0
+    #essa parte aqui do while ta meio errada, mas funciona kkkkk
+    #o 'erro' é que ta desregulado a quantidade de scrolls, ta rolando mais q o socilitado
+    while contador < rolar_posts:
+        time.sleep(2)
+        navegador.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(2)
+        contador = contador + 1
 
-    #rolar a página para baixo
-    print('\nRolando a página para baixo\n')
-    navegador.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+
+
     time.sleep(2)
 
 with open('perfil_instagram.txt', 'r') as arquivo:
@@ -229,4 +239,3 @@ with open('perfil_instagram.txt', 'r') as arquivo:
 
         print('\nFinalizando...\n')
         navegador.close()
-
