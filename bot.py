@@ -102,7 +102,7 @@ def seguir_curtir():
         print('\n[ERRO]: Opção inválida!\n')
 
 def movimentar():
-    tempo_storys = int(input('Tempo de movimentação (minutos): '))
+    tempo_storys = int(input('Tempo de assistir storys (minutos): '))
     tempo_storys = tempo_storys * 60
     rolar_posts = int(input('Rolar quantos posts +ou-?'))
     contador = 0
@@ -123,12 +123,9 @@ def movimentar():
     try:
         navegador.find_element_by_xpath('//*[@id="loginForm"]/div/div[3]/button/div').click()
     except:
-        print('[ERRO]: Não foi possível entrar no perfil!')
+        print('[ERRO]: Não foi possível clicar no botão de login!')
 
-    time.sleep(5)
-    print('\nLogin efetuado com sucesso!\n')
-    time.sleep(20)
-
+    time.sleep(10)
     #Clicar no agora não ou ir para o feed
     try:
         navegador.find_element_by_xpath('/html/body/div[1]/section/main/div/div/div/div/button').click()
@@ -149,8 +146,8 @@ def movimentar():
             navegador.find_element_by_xpath('/html/body/div[6]/div/div/div/div[3]/button[2]').click()
         except:
             print('\n[ERRO] Não foi possível clicar no segundo agora não\n')
-
-
+            time.sleep(5)
+            
     #Assistir Storys 
     print('\nAssistindo Storys por {} segundos\n'.format(tempo_storys))
     try:
@@ -238,4 +235,4 @@ with open('perfil_instagram.txt', 'r') as arquivo:
             print('\nOpção inválida!\n')
 
         print('\nFinalizando...\n')
-        navegador.close()
+        #navegador.close()
