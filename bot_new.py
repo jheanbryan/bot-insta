@@ -49,15 +49,24 @@ def go_initial_page():
     browser.find_element(By.XPATH, xpath_inital_page).click()
     time.sleep(2)
 
+    print('\nvou tentar algumas coisas agr')
+
+    """
     try:
-        wait_element('CLASS_NAME', '_a9-- _a9_1')
-
-        browser.find_element(By.CLASS_NAME, '_a9-- _a9_1').click()
-        
+        print('\nlink text')
+        browser.find_element(By.LINK_TEXT, 'Agora não').click()
     except:
-        print('Não encontrei o agora não, o feed ta limpo!')
-
-
+        print('\ncss seletor')
+        browser.find_element(By.CSS_SELECTOR, 'button._a9--:nth-child(2)').click()
+    """
+    try:
+        print('\nxpath1')
+        browser.find_element(By.XPATH, '/html/body/div[5]/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]/button[2]').click()
+    except:
+        print('\nxpath2')
+        browser.find_element(By.XPATH, '/html/body/div[4]/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]/button[2]').click()
+    
+    print('continuando')
 
 
 login('', '')
